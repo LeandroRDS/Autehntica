@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+}
+
+header{
+    min-width: 300px;
+    max-width: 100%px;
+    margin: auto;
+
+}
+
+header img{
+    border-radius: 100%;
+    width: 45px;
+}
+
+main p{
+color: #bc0be0 ;
+position: absolute;
+font-size: ;
+top: 30px;
+left: 400px;
+}
