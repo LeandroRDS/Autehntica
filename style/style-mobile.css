@@ -11,19 +11,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body, html{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: lightcoral;
+    background: linear-gradient(95deg,hsla(238, 100%, 44%, 0.200), rgba(221, 10, 200, 0.200));
     
+ 
 }
 
 header{
     position: relative;
-    width: 100vw ;
+    width: 97vw ;
     height: 75px;
-    background-color: lightgray;
+
+    margin: 5px;
+    
 }
 
 header img:hover{
@@ -36,7 +39,6 @@ header img:hover{
 }
 
 div#img-login{
-    background-color: lightgray;
     width: 40px;
     height: 40px;
 }
@@ -63,6 +65,7 @@ div#txt-login > p{
     font-family: 'Mulish', sans-serif;;
     font-weight: bold;
     text-transform: uppercase;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -114,7 +117,7 @@ div#barra-de-pesquisa{
     position: absolute;
     top: 40px;
     height: 35px;
-    width: 100vw;
+    width: 97vw;
     border-radius: 30px;
 }
 
