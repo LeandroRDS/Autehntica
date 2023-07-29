@@ -42,16 +42,16 @@ div#img-login{
 }
 
 div#img-login > img{
-    margin: 2px 0px 0px 0px;
+    margin: 2px 0px 0px 14px;
 }
 
 div#txt-login{
     position: relative;
-    background-color: lightskyblue;
-    top: -37px;
-    left: 40px;
+    background-image: linear-gradient(150deg, #0007E0, #DD0AC7);
+    top: -36px;
+    left: 60px;
     border: 1px solid black;
-    width: 100px;
+    width: 150px;
     height: 30px;
     text-align: center;
     border-radius: 3px;
@@ -61,12 +61,15 @@ div#txt-login{
 div#txt-login > p{
     margin-top: 5px;
     font-family: 'Mulish', sans-serif;;
+    font-weight: bold;
+    text-transform: uppercase;
+
 }
 
 div#txt-login:hover{
     position: relative;
-    top: -37px;
-    left: 41px;
+    top: -36px;
+    left: 60px;
     box-sizing: border-box;
     border: 1px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 3px #0007E0, -1px -1px 3px #0007E0;
