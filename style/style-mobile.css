@@ -22,7 +22,7 @@ body{
 header{
     position: relative;
     width: 100vw ;
-    height: 70px;
+    height: 75px;
     background-color: lightgray;
 }
 
@@ -105,4 +105,33 @@ div#img-sacola > img{
     margin: 2px 2px 2px 2px;
 }
 
+div#barra-de-pesquisa{
+    display: block;
+    background-image: linear-gradient(#0007E0, #DD0AC7);
+    position: absolute;
+    top: 40px;
+    height: 35px;
+    width: 100vw;
+    border-radius: 30px;
+}
+
+div#barra-de-pesquisa > input#input-pesquisa { 
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 39px);
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+img#id-img-lupa-pesquisa{
+    display: block;
+    float: right;
+    border: none;
+    box-shadow: none;
+    top: 0px;
+    left: 0px;
+}
 
