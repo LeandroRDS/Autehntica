@@ -15,7 +15,7 @@ body, html{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(95deg,hsla(238, 100%, 44%, 0.200), rgba(221, 10, 200, 0.200));
+    background: linear-gradient(95deg,hsla(238, 100%, 44%, 0.050), rgba(221, 10, 200, 0.0050));
     
  
 }
@@ -24,7 +24,6 @@ header{
     position: relative;
     width: 97vw ;
     height: 75px;
-
     margin: 5px;
     
 }
@@ -36,6 +35,7 @@ header img:hover{
     border: 1px solid rgba(255, 255, 255, 0.774);
     box-shadow: 1px 1px 3px #0007E0, -1px -1px 3px #0007E0;
     transition: 0.3s;
+
 }
 
 div#img-login{
@@ -116,8 +116,9 @@ div#barra-de-pesquisa{
     background-image: linear-gradient(#0007E0, #DD0AC7);
     position: absolute;
     top: 40px;
+    left: 60px;
     height: 35px;
-    width: 97vw;
+    width: 80vw;
     border-radius: 30px;
 }
 
@@ -130,6 +131,8 @@ div#barra-de-pesquisa > input#input-pesquisa {
     height: 30px;
     border-radius: 30px;
     text-align: center;
+    font-family: 'mulish', Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
 img#id-img-lupa-pesquisa{
@@ -139,5 +142,21 @@ img#id-img-lupa-pesquisa{
     box-shadow: none;
     top: 0px;
     left: 0px;
+}
+
+div#id-menu{
+    background: linear-gradient(95deg,rgba(0, 7, 224, 0.314), rgba(221, 10, 200, 0.315));
+    position: relative;
+    width: 40px;
+    height: 30px;
+    top: -24px;
+    left: 1;
+    border-radius: 5px;
+}
+
+div#id-menu > i{
+    font-size: 2.3em;
+    text-align: center;
+    margin: -2px 0px 0px 2px;
 }
 
