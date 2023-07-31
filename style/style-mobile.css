@@ -34,7 +34,7 @@ header{
 header img:hover{
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0.774);
-    box-shadow: 1px 1px 3px #0007E0, -1px -1px 3px #0007E0;
+    box-shadow: 1px 1px 3px #DD0AC7, -1px -1px 3px #0007E0;
     transition: 0.1s;
 }
 
@@ -168,7 +168,7 @@ div#id-menu:hover{
 iframe#id-iframe{
     display: block;
     width: 95vw;
-    height: 60px;
+    height: 80px;
     margin: auto;
 
 }
