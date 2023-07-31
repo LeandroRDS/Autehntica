@@ -9,6 +9,12 @@
     padding: 0px; 
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: 0px;
 }
 
 body, html{
@@ -27,11 +33,9 @@ header{
 
 header img:hover{
     position: relative;
-    top: -1px;
-    left: 1px;
     border: 1px solid rgba(255, 255, 255, 0.774);
     box-shadow: 1px 1px 3px #0007E0, -1px -1px 3px #0007E0;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 div#img-login{
@@ -62,7 +66,6 @@ div#txt-login > p{
     font-weight: bold;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
-
 }
 
 div#txt-login:hover{
@@ -72,7 +75,7 @@ div#txt-login:hover{
     box-sizing: border-box;
     border: 1px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 3px #0007E0, -1px -1px 3px #0007E0;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 div#img-carrinho{
@@ -156,3 +159,16 @@ div#id-menu > i{
     margin: -2px 0px 0px 2px;
 }
 
+div#id-menu:hover{
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px #0007E0, -1px -1px 3px #0007E0;
+    transition: 0.1s;
+}
+
+iframe#id-iframe{
+    display: block;
+    width: 95vw;
+    height: 300px;
+    margin: auto;
+
+}
