@@ -20,6 +20,8 @@
     scrollbar-width: 0px;
 }
 
+
+
 body, html{
     position: absolute;
     width: 100vw;
@@ -162,10 +164,11 @@ div#id-menu > img{
     top: -4px;
 }
 
-.img-sem-estilo{
+img.img-sem-estilo:hover{
     border: none;
     box-shadow: none;
 }
+
 
 div#id-menu:hover{
     border: 1px solid white;
@@ -192,7 +195,7 @@ div#id-logo img{
     width: 56px;
 }
 
-div#id-logo img{
+div#id-logo > img.img-sem-estilo{
     width: 56px;
 }
 
@@ -201,6 +204,5 @@ div#id-logo > p {
     top: -27px;
     left: 62px;
     font-family: 'Castoro Titling', sans-serif;
-
     text-shadow: 1px 1px 4px #DD0AC7, -1px -1px 4px #0007E0;
 }
