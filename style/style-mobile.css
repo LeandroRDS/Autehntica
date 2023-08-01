@@ -153,10 +153,15 @@ div#id-menu{
     border-radius: 5px;
 }
 
-div#id-menu > span{
-    font-size: 2.3em;
-    text-align: center;
-    margin: -2px 0px 0px 2px;
+div#id-menu > img{
+    position: relative;
+    width: 39px;
+    top: -4px;
+}
+
+div#id-menu >  img:hover{
+    border: none;
+    box-shadow: none;
 }
 
 div#id-menu:hover{
