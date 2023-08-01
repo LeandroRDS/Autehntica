@@ -162,7 +162,7 @@ div#id-menu > img{
     top: -4px;
 }
 
-div#id-menu >  img:hover{
+.img-sem-estilo{
     border: none;
     box-shadow: none;
 }
@@ -192,11 +192,15 @@ div#id-logo img{
     width: 56px;
 }
 
+div#id-logo img{
+    width: 56px;
+}
+
 div#id-logo > p {
     position: relative;
     top: -27px;
     left: 62px;
     font-family: 'Castoro Titling', sans-serif;
-    border: 1px solid white;
+
     text-shadow: 1px 1px 4px #DD0AC7, -1px -1px 4px #0007E0;
 }
