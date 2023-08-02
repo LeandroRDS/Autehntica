@@ -209,33 +209,41 @@ div#id-logo > p {
 
 section#id-grade{
     background-color: aqua;
-    width: 352px;
+    width: 95vw;
     height: 900px;
     margin: auto;
 }
 
-article{
-    background-color: rgb(255, 255, 255);
+article.class-linha-grade{
+    background-color: rgb(247, 247, 247);
     width: 349px;
     height: 50px;
+    text-align: center;
 }
 
 article#id-linha-grade-1{
     background-color: rgb(251, 255, 0);
-    width: 349px;
-    height: 170px;
-    margin: auto;
+    width: 100%;
+    height: 200px;
+   
+}
+
+div.class-img-grade{
+    background-color: rgb(5, 5, 5);
+    display: inline-block;
+    width: 47%;
+    height: 180px;
 
 }
 
 article#id-linha-grade-2{
     background-color: rgb(247, 0, 255);
-    width: 349px;
-    height: 170px;
+    width: 100%;
+    height: 200px;
 }
 
 article#id-linha-grade-3{
     background-color: rgb(255, 0, 0);
-    width: 349px;
-    height: 50px;
+    width: 100%;
+    height: 200px;
 }
