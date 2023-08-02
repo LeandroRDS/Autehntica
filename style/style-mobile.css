@@ -285,4 +285,11 @@ input.class-btn-add-ao-carrinho{
     height: 28px;
 }
 
+footer{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(95deg,rgba(0, 7, 224), rgba(221, 10, 200));
+}
+
 
