@@ -37,6 +37,10 @@ header{
     margin: 5px;  
 }
 
+img{
+
+}
+
 img:hover{
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0.774);
@@ -209,14 +213,12 @@ div#id-logo > p {
 }
 
 section#id-grade{
-    background-color: aqua;
     width: 95vw;
     height: 900px;
     margin: auto;
 }
 
 article.class-linha-grade{
-    background-color: rgb(247, 247, 247);
     width: 349px;
     height: 245px;
     text-align: center;
@@ -237,11 +239,12 @@ img.class-img-grade{
     width: 100%;
     height: 180px;
     border: none;
-    
+    background-color: white;
 }
 
 input{
     border-radius: 4px;
+    background-color: white;
 }
 
 input:hover{
@@ -275,14 +278,4 @@ input.class-btn-add-ao-carrinho{
     height: 28px;
 }
 
-article#id-linha-grade-2{
-    background-color: rgb(247, 0, 255);
-    width: 100%;
-    ;
-}
 
-article#id-linha-grade-3{
-    background-color: rgb(255, 0, 0);
-    width: 100%;
-    
-}
