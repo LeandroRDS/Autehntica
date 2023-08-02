@@ -246,6 +246,7 @@ img.class-img-grade{
     height: 180px;
     border: none;
     background-color: white;
+    border-radius: 6px;
 }
 
 input{
