@@ -188,6 +188,7 @@ iframe#id-iframe{
     margin: auto;
 }
 
+
 div#id-logo{
     position: relative;
     top: -17px;
@@ -210,6 +211,7 @@ div#id-logo > p {
     left: 62px;
     font-family: 'Castoro Titling', sans-serif;
     text-shadow: 1px 1px 4px #DD0AC7, -1px -1px 4px #0007E0;
+
 }
 
 section#id-grade{
@@ -252,6 +254,12 @@ img.class-img-grade{
 input{
     border-radius: 4px;
     background-color: white;
+    font-family: 'mulish';
+    font-size: 0.9em;
+    text-align: center;
+    text-justify: distribute;
+    font-weight: 100;
+
 }
 
 input:hover{
@@ -286,7 +294,7 @@ input.class-btn-add-ao-carrinho{
 }
 
 footer{
-    height: 100px;
+    height: 20px;
     width: 100%;
     text-align: center;
     background: linear-gradient(95deg,rgba(0, 7, 224), rgba(221, 10, 200));
