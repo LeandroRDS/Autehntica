@@ -70,12 +70,25 @@ div#txt-login{
     margin: 0px 0px 0px 0px;
 }
 
-div#txt-login > p{
+div#txt-login > input{
     margin-top: 5px;
     font-family: 'Mulish', sans-serif;;
     font-weight: bold;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    font-family: mulish;
+    font-size:1em;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 3px;
+    margin: auto;
+    background-color: transparent;
+}
+
+div#txt-login > input:hover{
+    position: relative;
+    border:none;
+    box-shadow: none;
+    transition: none;
 }
 
 div#txt-login:hover{
@@ -107,12 +120,23 @@ div#id-div-ajuda:hover{
     box-shadow: 1px 1px 3px #0007E0, -1px -1px 3px #0007E0;
 }
 
-div#id-div-ajuda p {
+div#id-div-ajuda input {
     font-family: mulish;
     font-weight: bold;
     font-size: 0.9em;
     text-align: center;
     padding-top: 4px;
+    padding-left: 3px;
+    margin: auto;
+    background-color: transparent;
+}
+
+div#id-div-ajuda input:hover {
+        position: relative;
+        border:none;
+        box-shadow: none;
+        transition: none;
+    
 }
 
 div#img-carrinho{
