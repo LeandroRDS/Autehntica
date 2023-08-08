@@ -28,7 +28,7 @@ h1{
     text-align: center;
 }
 
-p.class-btn-opcoes-menu{
+input.class-btn-opcoes-menu{
     width: 95%;
     height: 40px;
     font-family: mulish;
@@ -39,7 +39,7 @@ p.class-btn-opcoes-menu{
     border-radius: 4px; 
 }
 
-p.class-btn-opcoes-menu:hover{
+input.class-btn-opcoes-menu:hover{
     border: 1px solid white;
     box-shadow: 1px 1px 3px #DD0AC7, -1px -1px 3px #0007E0;
     box-sizing: border-box;
