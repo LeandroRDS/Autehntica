@@ -57,7 +57,7 @@ div#img-login > img{
     margin: 2px 0px 0px 8px;
 }
 
-div#txt-login{
+div#id-div-login{
     position: relative;
     background-image: linear-gradient(150deg, #0007E0, #DD0AC7);
     top: -36px;
@@ -70,7 +70,7 @@ div#txt-login{
     margin: 0px 0px 0px 0px;
 }
 
-div#txt-login > input{
+div#id-div-login > input{
     margin-top: 5px;
     font-family: 'Mulish', sans-serif;;
     font-weight: bold;
@@ -84,14 +84,14 @@ div#txt-login > input{
     background-color: transparent;
 }
 
-div#txt-login > input:hover{
+div#id-div-login > input:hover{
     position: relative;
     border:none;
     box-shadow: none;
     transition: none;
 }
 
-div#txt-login:hover{
+div#id-div-login:hover{
     position: relative;
     top: -36px;
     left: 54px;

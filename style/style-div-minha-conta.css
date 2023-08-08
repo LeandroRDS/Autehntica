@@ -4,11 +4,14 @@
 div#id-div-minha-conta:last-child{
     display: none;
     position: relative;
-    top: -130px;
+    top: -132px;
     left: -6px;
     background-color: rgb(255, 255, 255);
     width: 350px;
     height: 550px;
+    border: 1px solid black;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
 }
 
 img#id-img-menu-voltar{
@@ -16,6 +19,23 @@ img#id-img-menu-voltar{
     left: 300px;
     margin: 5px ;
     background-image: linear-gradient(125deg, #0007E0,#DD0AC7); 
+}
+
+label#id-label-menu-btn-voltar{
+    position: relative;
+    top: 16px;
+    left: 250px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(125deg, #0007E0,#DD0AC7);
+    font-weight: 600;
+}
+
+label#id-label-menu-btn-voltar:hover{
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px #DD0AC7, -1px -1px 3px #0007E0;
+    box-sizing: border-box;
 }
 
 h1{
