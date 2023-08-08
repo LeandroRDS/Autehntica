@@ -5,7 +5,7 @@ div#id-div-minha-conta:last-child{
     display: none;
     position: relative;
     top: -130px;
-    left: -2px;
+    left: -6px;
     background-color: rgb(255, 255, 255);
     width: 350px;
     height: 550px;
@@ -15,6 +15,27 @@ img#id-img-menu-voltar{
     position: relative;
     left: 300px;
     margin: 5px ;
-    background-image: linear-gradient(125deg, #0007E0,#DD0AC7);
+    background-image: linear-gradient(125deg, #0007E0,#DD0AC7); 
+}
+
+h1{
+    position: relative;
+    top: -45px;
+    left: 45px;
+    font-family: 'mulish';
+    font-weight: 500;
+    width: 220px;
+    text-align: center;
+}
+
+p.class-btn-opcoes-menu{
+    width: 95%;
+    height: 40px;
+    font-family: mulish;
+    font-size: 1.3em;
+    border: 1px solid black;
+    padding: 6px 0px 10px 10px;
+    margin: 20px 3px;
+    border-radius: 4px;
     
 }
