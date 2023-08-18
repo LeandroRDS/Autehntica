@@ -1,33 +1,16 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,500;0,900;1,200;1,500;1,900;1,1000&family=Sriracha&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Mulish:ital,wght@0,200;0,500;0,900;1,200;1,500;1,900;1,1000&family=Sriracha&display=swap');
-
-
 /* Arquivo de estilos para mobaile */
 
-*{
-    margin: 0px;
-    padding: 0px; 
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-
-}
 
 ::-webkit-scrollbar {
     display: none;
     scrollbar-width: 0px;
 }
 
-
-
 body, html{
     position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(95deg,hsla(238, 100%, 44%, 0.050), rgba(221, 10, 200, 0.0050));
+
 }
 
 header{
@@ -37,9 +20,6 @@ header{
     margin: 5px;  
 }
 
-img{
-
-}
 
 img:hover{
     position: relative;
@@ -48,10 +28,6 @@ img:hover{
     transition: 0.1s;
 }
 
-div#img-login{
-    width: 40px;
-    height: 40px;
-}
 
 div#img-login > img{
     margin: 2px 0px 0px 8px;
