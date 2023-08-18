@@ -14,7 +14,7 @@ function voltaTelaHome(){
 }
 
 /* Script Botão Fazer Login*/
-btn_fazer_login = window.document.querySelector('body#id-div-log in')
+btn_fazer_login = window.document.querySelector('div#id-div-login')
 btn_fazer_login.addEventListener('click', fazerLogin)
 function fazerLogin(){
     location.href = '../tela_login/tela-fazer-login.html'
