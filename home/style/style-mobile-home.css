@@ -8,16 +8,17 @@
     scrollbar-width: 0px;
 }
 
-body, html{
-    position: absolute;
-
-}
 
 header{
     position: relative;
     width: 97vw ;
     height: 110px;
     margin: 5px;  
+}
+
+header img{
+    border-radius: 50%;
+    width: 35px;
 }
 
 
@@ -60,26 +61,16 @@ div#id-div-login > input{
     background-color: transparent;
 }
 
-div#id-div-login > input:hover{
-    position: relative;
-    border:none;
-    box-shadow: none;
-    transition: none;
-}
-
 div#id-div-login:hover{
     position: relative;
     top: -36px;
     left: 54px;
-    box-sizing: border-box;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: 1px 1px 3px #0007E0, -1px -1px 3px #0007E0;
-    transition: 0.1s;
+    
 }
 
 div#id-div-ajuda{
     position: absolute;
-    background-image: linear-gradient(145deg, #0007e0, #DD0AC7);
     display: inline-block;
     top: 4px;
     left: 205px;
@@ -87,17 +78,14 @@ div#id-div-ajuda{
     height: 30px;
     border-radius: 3px;
     border: 1px solid black;
-    box-sizing: border-box;
-    margin: 0px 0px 0px 0px;
 }
 
 div#id-div-ajuda:hover{
     border: 1px solid white;
-    box-shadow: 1px 1px 3px #0007E0, -1px -1px 3px #0007E0;
+    box-shadow: 1px 1px 3px #DD0AC7, -1px -1px 3px #0007E0;
 }
 
 div#id-div-ajuda input {
-    font-family: mulish;
     font-weight: bold;
     font-size: 0.9em;
     text-align: center;
@@ -105,14 +93,6 @@ div#id-div-ajuda input {
     padding-left: 3px;
     margin: auto;
     background-color: transparent;
-}
-
-div#id-div-ajuda input:hover {
-        position: relative;
-        border:none;
-        box-shadow: none;
-        transition: none;
-    
 }
 
 div#img-carrinho{
@@ -124,14 +104,6 @@ div#img-carrinho{
     height: 40px;
 }
 
-div#img-carrinho > img{
-    margin: px 0px px 0px;
-}
-
-header img{
-    border-radius: 50%;
-    width: 35px;
-}
 
 div#img-sacola{
     display: block;
@@ -278,53 +250,7 @@ img.class-img-grade{
     border-radius: 6px;
 }
 
-input{
-    border-radius: 4px;
-    background-color: white;
-    font-family: 'mulish';
-    font-size: 0.9em;
-    text-align: center;
-    text-justify: distribute;
-    font-weight: 100;
 
-}
 
-input:hover{
-    position: relative;
-    border: 1px solid rgba(255, 255, 255, 0.774);
-    box-shadow: 1px 1px 3px #DD0AC7, -1px -1px 3px #0007E0;
-    transition: 0.1s;
-}
-
-input.class-btn-comprar{
-    position: relative;
-    top: -1px;
-    left: -44px;
-    width: 47%;
-    height: 28px;
-}
-
-input.class-btn-comentario{
-    position: relative;
-    top: -57px;
-    left: 45px;
-    width: 47%;
-    height: 28px;
-}
-
-input.class-btn-add-ao-carrinho{
-    position: relative;
-    top: 2px;
-    left: 0px;
-    width: 98%;
-    height: 28px;
-}
-
-footer{
-    height: 20px;
-    width: 100%;
-    text-align: center;
-    background: linear-gradient(95deg,rgba(0, 7, 224), rgba(221, 10, 200));
-}
 
 
