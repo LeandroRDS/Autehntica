@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fazer Login</title>
-    <link rel="stylesheet" href="../style_gerel/style_geral.css">
+     <link rel="stylesheet" href="../style_gerel/style_geral.css">
     <link rel="stylesheet" href="style/style-tela-fazer-login.css">
+    
 </head>
 <body>
     
     <main>
         <h1>faça Login!</h1>
         <div id="id-div-email" >
-            <label for="id-text-email-login">Email:</label>
-            <input name="name-text-email-login" id="id-text-email-login" placeholder="email@gamil.com" required>
+            <form>
+                <input type="email" name="name-text-email-login" id="id-text-email-login" required autocomplete="off" 
+                placeholder="email@gmail.com">
+                <label for="id-text-email-login">Email:</label>
+            </form>
+        
         </div>
         <div id="id-div-senha">
-            <label for="id-text-senha-login">Senha:</label>
-            <input type="text" name="name-text-senha-login" id="id-text-senha-login" placeholder="senha123!$%" riquired>
+            <form>
+                <input type="password" name="name-text-senha-login" id="id-text-senha-login" autocomplete="" riquired
+                placeholder="sehna%@&123">
+                <label for="id-text-senha-login">Senha:</label>
+            </form>
         </div>
+         <div id="id-div-btn-logar">
+            <input id="id-input-btn-logar" type="button" value="Logar">
+         </div>
         <div>
             <a href="#">Esqueci a senha !</a>
         </div>
