@@ -7,66 +7,79 @@ main{
 h1{
     text-align: center;
     padding: 90px 0px 40px 0px;
-    font-size: 2.5em;
-    font-weight: 900;
+    font-size: 2.9em;
+    font-weight: 300;
     color: var(--isazul);
 }
 
-div{
-    display: flex;
+section{
+    background-color: transparent;
+    text-align: center;
     width: 350px;
+    height: 400px;
+    margin: auto;
+}
+
+div{
+    background-color: transparent;
+    width: 340px;
     height: 60px;
     margin: auto;
     margin-bottom: 10px;
+    
 }
 
 form{
+    background-color: transparent;
     height: 60px;
-    width: 90%;
+    width: 340px;
     position: relative;
 }
 
 input{
-    position: absolute;
-    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 330px;
     height: 60px;
-    left: 20px;
     padding: 20px 5px 5px 0px;
     border-radius: 4px;
     font-size: 1.2em;
 }
 
 label{
-    position: absolute;
-    left: 26px;
-}
-
-a{
-    width: 314px;
-    height: 40px;
-    text-align: center;
-    background-color: white;
-    border-radius: 4px;
-    padding: 10px;
-    font-size: 1.2em;
-    margin: 0px 0px 0px 21px;
-}
-
-a:hover{
-    box-shadow: 1px 1px 1px var(--isroxo), -1px -1px 1px var(--isazul);
+    position: relative;
+    top: -60px;
+    left: -135px;
+    font-size: 1.1em;
+    
 }
 
 input#id-input-btn-logar{
     font-weight: 200;
     font-size: 1.7em;
     background-color: white;
-    width: 314px;
-    margin-left: 14px;
+    width: 330px;
+    margin:auto;
     padding: 0px 0px 7px 0px;
 }
 
-div#id-div-btn-logar{
-    
+a{
+    position: relative;
+    top: 17px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+div#id-div-btn-esqueci-senha{
+    background-color: white;
+    margin-top: 90px;
+    border-radius: 4px;
+    width: 330px;
+}
+
+div#id-div-btn-esqueci-senha:hover{
+    box-shadow: 1px 1px 1px var(--isroxo), -1px -1px 1px var(--isazul);
 }
 
 textarea:focus, input:focus{
