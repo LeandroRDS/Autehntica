@@ -21,4 +21,11 @@ function fazerLogin(){
     location.href = '../tela_login/tela-fazer-login.html'
 }
 
+/*script botão dados pessoais*/
+btn_dados_pessoais = window.document.querySelector('input#id-input-btn-dados-pessoais')
+btn_dados_pessoais.addEventListener('click', clicouDadosPessoais)
+function clicouDadosPessoais() {
+    location.href = 'tela-dados-pessoais/dados-pessoais.html'
+}
+
 

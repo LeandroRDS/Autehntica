@@ -2,6 +2,7 @@
 
 main{
     height: 97%;
+    font-family: 'mulish';
 }
 
 h1{
@@ -60,12 +61,25 @@ input#id-input-btn-logar{
     background-color: white;
     width: 330px;
     margin:auto;
-    padding: 0px 0px 7px 0px;
+    padding: 0px 0px 3px 0px;
+}
+
+input#id-input-btn-criar-conta{
+    font-weight: 200;
+    font-size: 1.7em;
+    background-color: white;
+    width: 330px;
+    margin:auto;
+    padding: 4px 0px 0px 0px;
+}
+
+div#id-div-btn-criar-conta{
+    margin: 70px 0px 0px 0px;
 }
 
 a{
     position: relative;
-    top: 17px;
+    top: 19px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     border-radius: 4px;
@@ -73,7 +87,7 @@ a{
 }
 div#id-div-btn-esqueci-senha{
     background-color: white;
-    margin-top: 90px;
+    margin-top: 15px;
     border-radius: 4px;
     width: 330px;
 }
