@@ -9,6 +9,12 @@
     --isroxo: #DD0AC7;
 }
 
+::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: 0px;
+}
+
+
 *{
     margin: 0px;
     padding: 0px; 
@@ -49,6 +55,12 @@ img:hover{
     border: 1px solid rgba(255, 255, 255, 0.774);
     box-shadow: 1px 1px 3px #DD0AC7, -1px -1px 3px #0007E0;
     transition: 0.1s;
+}
+
+h1{
+    text-align: center;
+    font-weight: 300;
+    color: var(--isazul);
 }
 
 input{

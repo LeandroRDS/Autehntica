@@ -1,7 +1,68 @@
 @charset "UTF-8";
 
-main{
-    background-color: aqua;
-    height: 100%;
-    width: 95%;
+header{
+    height: 70px;
 }
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 300;
+    font-size: 2.3em;
+}
+
+main{
+
+    height: 91%;
+}
+
+section{
+    position:relative;
+
+    height: 500px;
+    width: 350px;
+    margin: auto;
+}
+
+div{
+    position: relative;
+    top: 10px;
+    height: 65px;
+    width: 97%;
+
+    margin: auto;
+    
+}
+
+input{
+    position: relative;
+    width: 330px;
+    height: 50px;
+    left: 5px;
+    text-align: center;
+    font-size: 1em;
+    padding: 25px 0px 0px 0px;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+    background-color: white;
+}
+
+input#id-input-btn-enderecos{
+    height: 70px;
+}
+
+label{
+    color: black;
+    position: relative;
+    top: -49px;
+    left: 8px;
+
+}
+
+label#id-input-btn-palavra-enderecos{
+    position: relative;
+    top: -30px;
+}
+
+

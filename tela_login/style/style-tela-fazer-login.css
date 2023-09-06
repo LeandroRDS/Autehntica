@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 main{
-    height: 97%;
+    position: relative;
     font-family: 'mulish';
+    height: 97%;
 }
 
 h1{
@@ -70,11 +71,11 @@ input#id-input-btn-criar-conta{
     background-color: white;
     width: 330px;
     margin:auto;
-    padding: 4px 0px 0px 0px;
+    padding: 4px 0px 0px 60px;
 }
 
 div#id-div-btn-criar-conta{
-    margin: 70px 0px 0px 0px;
+    margin: 70px 0px 0px 4px;
 }
 
 a{

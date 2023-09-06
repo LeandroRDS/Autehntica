@@ -3,12 +3,6 @@
 /* Arquivo de estilos para mobaile */
 
 
-::-webkit-scrollbar {
-    display: none;
-    scrollbar-width: 0px;
-}
-
-
 header{
     position: relative;
     width: 97vw ;
