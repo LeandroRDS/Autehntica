@@ -12,13 +12,11 @@ h1{
 }
 
 main{
-
-    height: 91%;
+    height: calc(100% - 170px);
 }
 
 section{
     position:relative;
-
     height: 500px;
     width: 350px;
     margin: auto;
@@ -29,9 +27,7 @@ div{
     top: 10px;
     height: 65px;
     width: 97%;
-
-    margin: auto;
-    
+    margin: auto; 
 }
 
 input{
